@@ -1,4 +1,4 @@
-require('dotenv').config
+require('dotenv').config()
 const express = require('express')
 const app = express()
 const cors = require('cors')
@@ -17,6 +17,7 @@ app.use('/comments', commentRouter)
 
 db.sequelize.sync().then(() => {
     app.listen(process.env.PORT, () => {
+        console.log(process.env.PORT)
         console.log('server running')
     })
 })
