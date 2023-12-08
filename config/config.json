@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "root",
-    "password": "IIsus-gospod1",
-    "database": "db1",
-    "host": "127.0.0.1",
+    "username": "sql11668821",
+    "password": "acn3UnZLAe",
+    "database": "sql11668821",
+    "host": "sql11.freesqldatabase.com",
     "dialect": "mysql"
   },
   "test": {
@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "sql11668821",
+    "password": "acn3UnZLAe",
+    "database": "sql11668821",
+    "host": "sql11.freesqldatabase.com",
     "dialect": "mysql"
   }
 }
